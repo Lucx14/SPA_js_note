@@ -7,9 +7,11 @@
     return this.notes;
   }
 
-  List.prototype.addNote = function(note) {
-    this.notes.push(note)
-  }
+  List.prototype.createAndStore = function(string) {
+    var note = new Note(string);
+    this.notes.push(note);
+    return note;
+  };
 
   exports.List = List;
 })(this);

@@ -8,6 +8,5 @@
   };
 
 
-
   exports.Note = Note;
 })(this);
