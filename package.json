@@ -1,0 +1,25 @@
+{
+  "name": "spa_js_note",
+  "version": "1.0.0",
+  "description": "Makers single page JS app",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucx14/SPA_js_note.git"
+  },
+  "author": "Lucien Najev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucx14/SPA_js_note/issues"
+  },
+  "homepage": "https://github.com/Lucx14/SPA_js_note#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
