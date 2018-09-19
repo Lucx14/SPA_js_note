@@ -8,6 +8,7 @@
   NoteController.prototype.displayNotes = function() {
     var view = new View(this.list);
     document.getElementById("app").innerHTML = view.displayHTML();
+    return document.getElementById("app").innerHTML;
   };
 
 
