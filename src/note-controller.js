@@ -1,19 +1,22 @@
-// (function(exports) {
-//
-//   function NoteController() {
+(function(exports) {
 
-    var element = document.getElementById("app");
-    // element.innerHTML = "Bye";
-    console.log("Hello");
-//
-// };
-//
-//   exports.NoteController = NoteController;
-// })(this);
+  function NoteController(list = new List()) {
+    this.list = list;
+  };
 
 
-// var element = document.getElementById("app");
-// console.log(element);
+  NoteController.prototype.displayNotes = function() {
+    var view = new View(this.list);
+    document.getElementById("app").innerHTML = view.displayHTML();
+  };
 
-// element.innerHTML = "Bye";
-// console.log(element);
+
+  NoteController.prototype.createNote = function(string) {
+    this.list.createAndStore(string);
+  };
+
+
+
+
+  exports.NoteController = NoteController;
+})(this);
