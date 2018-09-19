@@ -6,7 +6,7 @@
     list.createAndStore("Favourite drink: seltzer");
     list.createAndStore("Favourite dessert: cake");
     var view = new View(list);
-    var result = "<ul><li><div>Favourite food: pesto pasta</div></li><li><div>Favourite drink: seltzer</div></li><li><div>Favourite dessert: cake</div></li></ul>"
+    var result = "<ul><li><div>Favourite food: pest</div></li><li><div>Favourite drink: sel</div></li><li><div>Favourite dessert: c</div></li></ul>"
     assert.isTrue(view.displayHTML() === result, "View model: The view renders several notes");
   };
 
