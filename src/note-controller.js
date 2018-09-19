@@ -4,7 +4,7 @@
 
     var element = document.getElementById("app");
     // element.innerHTML = "Bye";
-    console.log(element);
+    console.log("Hello");
 //
 // };
 //

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Lucx14/SPA_js_note#readme",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "nodemon": "^1.18.4"
   }
 }
