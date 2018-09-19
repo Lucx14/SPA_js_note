@@ -2,9 +2,9 @@
 //
 //   function NoteController() {
 
-    // var element = document.getElementById("app");
+    var element = document.getElementById("app");
     // element.innerHTML = "Bye";
-    // console.log("Hello");
+    console.log(element);
 //
 // };
 //
