@@ -2,8 +2,6 @@
 
 
   function returnsHTML() {
-
-
     // create a mock object to test list ??
     // listDouble.prototype = {
     // not sure if i need to mock anything?!?!
@@ -18,7 +16,6 @@
       console.log("Successful");
     }
   };
-
 
   returnsHTML();
 })(this);
