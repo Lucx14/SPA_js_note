@@ -5,8 +5,21 @@
     this.view = new View(this.list);
   };
 
+  // so it looks like when targeting the element we might be able to targert by href?
+
+  // NoteController.prototype.showNoteForCurrentPage() {
+  //   displayNotes();
+  // };
+  //
+  // NoteController.prototype.getNoteFromUrl(location) {
+  //   return location.hash.split("#")[1];
+  // };
+
+
   NoteController.prototype.displayNotes = function() {
-    document.getElementById("app").innerHTML = this.view.displayHTML();
+    document
+    .getElementById("app")
+    .innerHTML = this.view.displayHTML();
     return document.getElementById("app").innerHTML;
   };
 

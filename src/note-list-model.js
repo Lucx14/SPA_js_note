@@ -13,8 +13,8 @@
     this.counter++;
   }
 
-  List.prototype.createAndStore = function(string) {
-    var note = new Note(string, this.counter);
+  List.prototype.createAndStore = function(string, id = this.counter) {
+    var note = new Note(string, id);
     this.notes.push(note);
     this.count();
     return note;
