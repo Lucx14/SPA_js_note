@@ -1,5 +1,8 @@
 (function(exports) {
-
+  // function NoteBookDouble(){}
+  // NoteBookViewDouble.prototype.returnHtml = function() {
+  //   return: "test note";
+  // };
   function returnsHTML() {
     var noteController = new NoteController();
     noteController.createNote("Test");
