@@ -16,7 +16,16 @@
     assert.isTrue(list.notes[0].text === "Favourite drink: seltzer", "List model: can store a new note in the list array");
   };
 
+  function createAndStoreIncreasesCounter() {
+    var list = new List();
+    list.createAndStore("This is a note");
+    list.createAndStore("This is another note");
+    console.log(list.counter);
+    assert.isTrue(list.counter === 2, "List model: Creating a note increases the counter by one");
+  }
+
   instantiatesWithEmptyArray();
   seeNotesReturnsAnArray();
   CreateAndStoreStoresNoteInArray();
+  createAndStoreIncreasesCounter();
 })(this);
