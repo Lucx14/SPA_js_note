@@ -6,7 +6,7 @@
 
 
   View.prototype.displayHTML = function() {
-    var textArray = this.list.seeNotes().map(note => note.noteId() + ": " + note.noteText().slice(0,20));
+    var textArray = this.list.seeNotes().map(note => note.noteId() + ": " + note.noteText().slice(0,20) + "...");
     return "<ul><li><div>" + textArray.join('</div></li><li><div>') + "</div></li></ul>";
   };
 
