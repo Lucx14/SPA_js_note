@@ -12,5 +12,6 @@
     return this.id;
   };
 
+
   exports.Note = Note;
 })(this);
